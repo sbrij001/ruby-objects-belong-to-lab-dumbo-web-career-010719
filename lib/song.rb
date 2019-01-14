@@ -1,8 +1,3 @@
 class Song
-  attr_accessor :title, :artist
-
-  def song=(song)
-    song = Song.new
-  end
-
+  attr_accessor :artist, :title
 end

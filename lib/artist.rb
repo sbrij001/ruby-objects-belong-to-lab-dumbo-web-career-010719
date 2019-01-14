@@ -1,11 +1,3 @@
-require"pry"
-
 class Artist
-  attr_accessor :name
-
-  def artist=(artist)
-    artist = Artist.new
-  end
-  
-
+  attr_accessor :name, :song
 end
